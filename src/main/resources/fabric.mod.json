@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "godcore",
+  "version": "${version}",
+  "name": "Emperor Time",
+  "description": "A sculk cataclysm and toggleable god flight for Minecraft 1.21.11.",
+  "authors": ["Codex"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.godcore.GodCoreMod"] },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
